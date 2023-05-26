@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 50px 50px 50px 50px;
+	background-image: url("bg.jpg");
+	color: #001561;
+	height: 95vh;
+}
+.heading{
+	text-align: center;
+	font-weight: 900;
+	font-size:5rem;
+	font-family: Cormorant Garamond;
+}
+.app-main{
+	padding: 2rem;
+	font-size: 2rem;
+	display: grid;
+	grid-template-rows: auto auto;
+	width: 800px;
+	border-radius: 40px;
+	background: rgb(13,200,240);
+	background: radial-gradient(circle, rgba(13,200,240,1) 0%, rgba(0,78,149,1) 0%, rgba(13,200,240,1) 100%);
+	position: relative;
+	top: 80px;
+	bottom: 80px;
+	margin: auto;
+}
+.place-input{
+	float: center;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 2rem;
+}
+.search-icon{
+	height: 30px;
+	width: 30px;
+}
+/*.weather-body{
+	display: grid;
+	grid-template-rows: auto auto;
+}*/
+.weather-status{
+	display: grid;
+	grid-template-rows: auto;
+}
+.weather-body{
+	color: #001561;
+	font-family: Montserrat;
+}
+.city{
+	text-align: center;
+	padding: 0.3rem;
+	color: #c3d0ff;
+}
+.clouds{
+	text-align: center;
+	padding: 0.3rem;
+	padding-bottom:0.3rem ;
+	color: #c3d0ff;
+}
